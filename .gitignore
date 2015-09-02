@@ -4,3 +4,5 @@
 # node modules
 node_modules/
 
+# sample dump folder
+dest/

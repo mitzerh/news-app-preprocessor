@@ -1,6 +1,6 @@
 # News App JSON Preprocessor
 
-A preprocessor application for generating the iOS News App's `article.json` file using [GruntJS](http://gruntjs.com/).
+A preprocessor application for generating the iOS News App's `article.json` file using [node](https://nodejs.org/).
 
 More details found on the [Wiki](https://github.com/mitzerh/news-app-preprocessor/wiki).
 
@@ -19,7 +19,7 @@ More details found on the [Wiki](https://github.com/mitzerh/news-app-preprocesso
 _Example:_
 
 ```
-grunt --src=src/examples/aritcle-with-photo/ --dest=/www/output/article-with-photo/
+node app.js --src=src/examples/aritcle-with-photo/ --dest=/www/output/article-with-photo/
 ```
 
 ### Node server
@@ -28,7 +28,7 @@ You can run the node server version to process the requests via cURL. Defaults t
 
 ```
 # run server
-npm server.js
+node server.js
 ```
 
 _Example:_
