@@ -9,9 +9,9 @@ More details found on the [Wiki](https://github.com/mitzerh/news-app-preprocesso
 
 ### Arguments
 
-* `--src` The folder of the news bundle
+* `--src` The folder path where the `generator.json` is found
 
-* `--dest` Output folder of the bundle
+* `--dest` Output folder where to put the processed `article.json`
 
 * `--modules` (Optional) Path to custom modules. Default uses `src/modules/`
 
