@@ -1,0 +1,142 @@
+{
+  "template": {
+    "type": "template/template-dark",
+    "info": {
+      "identifier": "testArticleWithVideo",
+      "title": "Test Article With Video"
+    }
+  },
+  "items": [
+
+    {
+      "type": "header/heading-video",
+      "info": {
+        "feed": "http://foxnews-f.akamaihd.net/i/2015/08/26/082615_ss_workplace_FNC_,XLOW,LOW,MED_LOW,MED,HIGH,HD,.mp4.csmil/master.m3u8",
+        "stillURL": "video-thumb.jpg"
+      }
+    },
+
+    {
+      "type": "body/title",
+      "info": {
+        "text": "Dow loses another 3.5 percent on deep worry over Beijing's economy",
+        "author": "Uncle Sam",
+        "published": "Published on September 25, 2015"
+      }
+    },
+
+    {
+      "type": "body/paragraph",
+      "info": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est."
+      }
+    },
+
+    {
+      "type": "body/pullquote",
+      "info": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum nulla quam, eget tempor ante.",
+        "attribution": "John Doe"
+      }
+    },
+
+    {
+      "type": "body/video",
+      "info": {
+        "feed": "http://foxnews-f.akamaihd.net/i/2015/08/26/082615_ss_workplace_FNC_,XLOW,LOW,MED_LOW,MED,HIGH,HD,.mp4.csmil/master.m3u8",
+        "stillURL": "video-thumb.jpg",
+        "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum nulla quam, eget tempor ante."
+      }
+    },
+
+    {
+      "type": "body/paragraph",
+      "info": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est."
+      }
+    },
+
+    {
+      "type": "body/summary",
+      "info": {
+        "items": [
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        ]
+      }
+    },
+
+    {
+      "type": "body/paragraph",
+      "info": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est."
+      }
+    },
+
+    {
+      "type": "body/gallery",
+      "info": {
+        "items": [
+          {
+            "url": "testimage-b.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-c.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-d.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-e.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-f.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-g.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-h.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-i.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          },
+          {
+            "url": "testimage-j.jpg",
+            "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "credit": "Photo Credit"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "body/paragraph",
+      "info": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est."
+      }
+    },
+
+    {
+      "type": "footer/divider"
+    }
+
+  ]
+}
