@@ -2,6 +2,8 @@
 
 A preprocessor application for generating the iOS News App's `article.json` file using [GruntJS](http://gruntjs.com/).
 
+More details found on the [Wiki](https://github.com/mitzerh/news-app-preprocessor/wiki).
+
 ---
 
 
@@ -22,7 +24,7 @@ grunt --src=src/examples/aritcle-with-photo/ --dest=/www/output/article-with-pho
 
 ### Node server
 
-You can run the node server version to process the requests via cURL
+You can run the node server version to process the requests via cURL. Defaults to port 3000.
 
 ```
 # run server
