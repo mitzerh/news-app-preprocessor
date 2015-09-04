@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
   res.send('Hello..\n');
 });
 
-app.post('/generator', function(req, res){
+app.post('/process', function(req, res){
 
     var content = req.body,
         ret;

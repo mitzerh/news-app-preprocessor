@@ -40,7 +40,7 @@ module.exports = (function(){
     /**
      * destination files info
      */
-    config.dest = Helper.getOpt("dest") || (config.baseDir + '/dest');
+    config.dest = Helper.getOpt("dest") || config.src;
 
     /**
      * modules

@@ -9,9 +9,9 @@ More details found on the [Wiki](https://github.com/mitzerh/news-app-preprocesso
 
 ### Arguments
 
-* `--src` The folder path where the `generator.json` is found
+* `--src` The folder path where the `process.json` is found
 
-* `--dest` Output folder where to put the processed `article.json`
+* `--dest` (Optional) Output folder where to put the processed `article.json`. Default uses the same source folder
 
 * `--modules` (Optional) Path to custom modules. Default uses `src/modules/`
 
@@ -34,5 +34,5 @@ node server.js
 _Example:_
 
 ```
-curl -i -X POST -H 'Content-Type: application/json' -d @generator.json http://localhost:3000/generator
+curl -i -X POST -H 'Content-Type: application/json' -d @process.json http://localhost:3000/process
 ```
